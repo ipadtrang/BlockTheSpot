@@ -1,0 +1,15 @@
+try:
+    # Mở file ở chế độ đọc
+    open_file = open('fileword', 'r')
+
+    # In nội dung của file
+    print(open_file.read())
+
+    # Đừng quên đóng file sau khi hoàn thành
+    open_file.close()
+
+except FileNotFoundError:
+    print("Không tìm thấy file 'fileword'.")
+
+except Exception as e:
+    print(f"Có lỗi xảy ra: {e}")
