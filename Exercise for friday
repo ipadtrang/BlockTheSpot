@@ -1,0 +1,48 @@
+
+"""Not : to dowload some function use pip install (function)"""
+temperatures = [11, 14, 23, 27, 29, 26, 22, 28, 21, 21, 13, 34, 17, 34, 18, 15, 26, 34, 16, 19, 33, 35, 13, 27, 23, 30, 14, 21, 13, 31]
+
+temperature_string = "11 14 23 27 29 26 22 28 21 21 13 34 17 34 18 15 26 34 16 19 33 35 13 27 23 30 14 21 13 31"
+
+"""
+Ex 2:
+Yêu cầu: Convert list "temperatures" về array, sau đó dùng numpy
+1. Tìm nhiệt độ cao nhất
+2. Tìm nhiệt độ thấp nhất
+3. Tính nhiệt độ trung bình trong 30 ngày
+4. Ngày nóng là ngày có nhiệt độ lớn hơn 28, tính tổng số ngày nóng
+5. [Nâng cao chút] Tương tự những yêu cầu trên mà đối với list " temperature_string"
+
+"""
+Exercise 3
+
+Yêu cầu: Mở file temperatures.txt, sau đó dùng numpy
+1. Tìm nhiệt độ cao nhất
+2. Tìm nhiệt độ thấp nhất
+3. Tính nhiệt độ trung bình trong 30 ngày
+4. Ngày nóng là ngày có nhiệt độ lớn hơn 28, tính tổng số ngày nóng
+5. Tìm top 3 nhiệt độ nóng nhất 
+
+""" 
+"""
+EX4: 
+Viết 1 hàm (function):
+Để Input file name (như file temperature.txt ở bài 3), sẽ tự trả ra kết quả của: max, min, tổng ngày nóng (> 29 độ C), top 3 nhiệt độ nóng nhất, top 3 nhiệt độ lạnh nhất
+"""
+"""
+EX5:
+Từ file units_sold.txt, product_prices.txt, open file, chuyển thành array, nhân lại để tính "total sales each day" 
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
